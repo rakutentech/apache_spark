@@ -1,6 +1,6 @@
 chef_gem 'waitutil'
 
-include_recipe 'apache_spark::force-package-index-update'
+include_recipe 'apache_spark_ng::force-package-index-update'
 include_recipe 'java'
 include_recipe 'hadoop'
 include_recipe 'hadoop::hadoop_hdfs_namenode'
@@ -30,6 +30,6 @@ service 'hadoop-hdfs-datanode' do
   action :start
 end
 
-include_recipe 'apache_spark::spark-install'
-include_recipe 'apache_spark::spark-standalone-master'
-include_recipe 'apache_spark::spark-standalone-worker'
+include_recipe 'apache_spark_ng::spark-install'
+include_recipe 'apache_spark_ng::spark-standalone-master'
+include_recipe 'apache_spark_ng::spark-standalone-worker'

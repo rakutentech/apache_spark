@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe 'apache_spark::find-free-port'
-include_recipe 'apache_spark::spark-user'
+include_recipe 'apache_spark_ng::find-free-port'
+include_recipe 'apache_spark_ng::spark-user'
 
 spark_user = node['apache_spark']['user']
 spark_group = node['apache_spark']['group']

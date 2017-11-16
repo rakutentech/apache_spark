@@ -19,7 +19,7 @@ require 'yaml'
 
 require_relative 'helpers'
 
-describe_recipe 'apache_spark::spark-install' do
+describe_recipe 'apache_spark_ng::spark-install' do
   include Helpers::ApacheSparkTest
 
   it 'allows starting Spark standalone master' do

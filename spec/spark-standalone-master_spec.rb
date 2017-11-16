@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'apache_spark::spark-standalone-master' do
+describe 'apache_spark_ng::spark-standalone-master' do
   context 'with default settings' do
     cached(:chef_run) { ChefSpec::SoloRunner.converge(described_recipe) }
 
