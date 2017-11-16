@@ -17,7 +17,7 @@ maintainer 'ClearStory Data, Inc.'
 maintainer_email 'mbautin@clearstorydata.com'
 license 'Apache License 2.0'
 description 'A cookbook to install and configure Apache Spark'
-version '1.2.14'
+version '2.0.0'
 chef_version '>= 11.18.6'
 
 %w(debian ubuntu centos redhat fedora).each do |os|
