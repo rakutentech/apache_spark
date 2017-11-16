@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name 'apache_spark'
+name 'apache_spark_ng'
 maintainer 'ClearStory Data, Inc.'
 maintainer_email 'mbautin@clearstorydata.com'
 license 'Apache License 2.0'
